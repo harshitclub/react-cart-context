@@ -39,7 +39,7 @@ export default function Featured() {
           <ProductCard key={product.id} product={product} />
           <ProductCard key={product.id} product={product} />
         </div>
-        <div className="text-center mt-5">
+        <div className="text-center my-5">
           <Button className="rounded-sm">
             Explore More <MoveRight className="-mb-1" />
           </Button>
