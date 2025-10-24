@@ -21,7 +21,7 @@ const product = {
 
 export default function Featured() {
   return (
-    <section className="w-full my-2">
+    <section className="w-full mb-2 mt-5">
       <div className="max-w-7xl mx-auto px-6">
         <h2 className="scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0">
           Featured
@@ -40,7 +40,7 @@ export default function Featured() {
           <ProductCard key={product.id} product={product} />
         </div>
         <div className="text-center my-5">
-          <Button className="rounded-sm">
+          <Button className="rounded-sm bg-gray-900">
             Explore More <MoveRight className="-mb-1" />
           </Button>
         </div>

@@ -30,7 +30,7 @@ export default function Products() {
 
   return (
     <>
-      <main className="w-full my-2">
+      <main className="w-full mb-2 mt-5">
         <div className="max-w-7xl mx-auto px-6">
           <h2 className="scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0">
             All Products

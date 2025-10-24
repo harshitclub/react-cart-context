@@ -114,7 +114,7 @@ export default function About() {
             authentication — setting a strong foundation for large-scale
             applications.
           </p>
-          <Button className="mt-4">
+          <Button className="mt-4 bg-gray-900">
             <a href="/products">Explore Products</a>
           </Button>
         </section>

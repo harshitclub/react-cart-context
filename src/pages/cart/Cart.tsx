@@ -24,7 +24,7 @@ export default function Cart() {
               <p className="text-sm text-muted-foreground mb-4">
                 Looks like you haven’t added anything yet.
               </p>
-              <Button variant="default">
+              <Button variant="default" className="bg-gray-900">
                 <a href="/products">Continue Shopping</a>
               </Button>
             </CardContent>
