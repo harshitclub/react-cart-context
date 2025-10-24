@@ -7,11 +7,13 @@ export default function MainLayout() {
   return (
     <>
       <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
-        <Navbar />
-        <main>
-          <Outlet />
-        </main>
-        <Footer />
+        <div className="min-h-screen flex flex-col">
+          <Navbar />
+          <main className="grow">
+            <Outlet />
+          </main>
+          <Footer />
+        </div>
       </ThemeProvider>
     </>
   );
